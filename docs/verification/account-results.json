@@ -1,0 +1,22 @@
+{
+  "checks": [
+    "Five demo profile choices fill credentials without bypassing authentication",
+    "Password visibility toggle preserves input and accessible control",
+    "Incorrect password fails at the API and keeps the user on sign-in",
+    "Login, registration, recovery, reset, and invitation layouts in both themes",
+    "All five profiles authenticate with their real API roles",
+    "Student access is limited to study projects with assigned work",
+    "Menu Escape/outside-click behavior and focus return",
+    "Switching accounts revokes local access and requires another sign-in",
+    "Profile editing persists through the API and escapes user-supplied names",
+    "Security panel sends a reset request only for the signed-in email",
+    "Sign-out revokes the session across reload",
+    "Reset completion while signed in clears identity, cached workspace, and refresh cookie",
+    "Static mode explains account access without collecting a password or pretending to authenticate"
+  ],
+  "errors": [],
+  "accessibility": [],
+  "overflows": [],
+  "audits": 48,
+  "responsiveChecks": 48
+}

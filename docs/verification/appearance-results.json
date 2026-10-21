@@ -1,0 +1,597 @@
+{
+  "errors": [],
+  "accessibility": [],
+  "overflows": [],
+  "audits": 99,
+  "responsiveChecks": 96,
+  "checks": [
+    "UI controls and reload persistence",
+    "Quick toggle",
+    "Live operating-system preference",
+    "Keyboard radio selection preserves focus",
+    "Cross-tab settings update and reset",
+    "Expanded modal and keyboard focus",
+    "Narrow-screen modal",
+    "Mobile navigation",
+    "Corrupt, invalid, and blocked appearance storage",
+    "Connected session restoration retains theme without caching organization data"
+  ],
+  "timings": [
+    {
+      "mode": "light",
+      "accent": "forest",
+      "route": "overview",
+      "ms": 27
+    },
+    {
+      "mode": "light",
+      "accent": "forest",
+      "route": "projects",
+      "ms": 17
+    },
+    {
+      "mode": "light",
+      "accent": "forest",
+      "route": "tasks",
+      "ms": 23
+    },
+    {
+      "mode": "light",
+      "accent": "forest",
+      "route": "teams",
+      "ms": 17
+    },
+    {
+      "mode": "light",
+      "accent": "forest",
+      "route": "calendar",
+      "ms": 16
+    },
+    {
+      "mode": "light",
+      "accent": "forest",
+      "route": "timeline",
+      "ms": 14
+    },
+    {
+      "mode": "light",
+      "accent": "forest",
+      "route": "budget",
+      "ms": 20
+    },
+    {
+      "mode": "light",
+      "accent": "forest",
+      "route": "risks",
+      "ms": 17
+    },
+    {
+      "mode": "light",
+      "accent": "forest",
+      "route": "reports",
+      "ms": 18
+    },
+    {
+      "mode": "light",
+      "accent": "forest",
+      "route": "notifications",
+      "ms": 13
+    },
+    {
+      "mode": "light",
+      "accent": "forest",
+      "route": "focus",
+      "ms": 22
+    },
+    {
+      "mode": "light",
+      "accent": "forest",
+      "route": "settings",
+      "ms": 16
+    },
+    {
+      "mode": "light",
+      "accent": "ocean",
+      "route": "overview",
+      "ms": 18
+    },
+    {
+      "mode": "light",
+      "accent": "ocean",
+      "route": "projects",
+      "ms": 13
+    },
+    {
+      "mode": "light",
+      "accent": "ocean",
+      "route": "tasks",
+      "ms": 13
+    },
+    {
+      "mode": "light",
+      "accent": "ocean",
+      "route": "teams",
+      "ms": 16
+    },
+    {
+      "mode": "light",
+      "accent": "ocean",
+      "route": "calendar",
+      "ms": 16
+    },
+    {
+      "mode": "light",
+      "accent": "ocean",
+      "route": "timeline",
+      "ms": 14
+    },
+    {
+      "mode": "light",
+      "accent": "ocean",
+      "route": "budget",
+      "ms": 26
+    },
+    {
+      "mode": "light",
+      "accent": "ocean",
+      "route": "risks",
+      "ms": 17
+    },
+    {
+      "mode": "light",
+      "accent": "ocean",
+      "route": "reports",
+      "ms": 18
+    },
+    {
+      "mode": "light",
+      "accent": "ocean",
+      "route": "notifications",
+      "ms": 14
+    },
+    {
+      "mode": "light",
+      "accent": "ocean",
+      "route": "focus",
+      "ms": 14
+    },
+    {
+      "mode": "light",
+      "accent": "ocean",
+      "route": "settings",
+      "ms": 17
+    },
+    {
+      "mode": "light",
+      "accent": "violet",
+      "route": "overview",
+      "ms": 18
+    },
+    {
+      "mode": "light",
+      "accent": "violet",
+      "route": "projects",
+      "ms": 16
+    },
+    {
+      "mode": "light",
+      "accent": "violet",
+      "route": "tasks",
+      "ms": 19
+    },
+    {
+      "mode": "light",
+      "accent": "violet",
+      "route": "teams",
+      "ms": 14
+    },
+    {
+      "mode": "light",
+      "accent": "violet",
+      "route": "calendar",
+      "ms": 18
+    },
+    {
+      "mode": "light",
+      "accent": "violet",
+      "route": "timeline",
+      "ms": 15
+    },
+    {
+      "mode": "light",
+      "accent": "violet",
+      "route": "budget",
+      "ms": 17
+    },
+    {
+      "mode": "light",
+      "accent": "violet",
+      "route": "risks",
+      "ms": 17
+    },
+    {
+      "mode": "light",
+      "accent": "violet",
+      "route": "reports",
+      "ms": 17
+    },
+    {
+      "mode": "light",
+      "accent": "violet",
+      "route": "notifications",
+      "ms": 16
+    },
+    {
+      "mode": "light",
+      "accent": "violet",
+      "route": "focus",
+      "ms": 17
+    },
+    {
+      "mode": "light",
+      "accent": "violet",
+      "route": "settings",
+      "ms": 17
+    },
+    {
+      "mode": "light",
+      "accent": "amber",
+      "route": "overview",
+      "ms": 18
+    },
+    {
+      "mode": "light",
+      "accent": "amber",
+      "route": "projects",
+      "ms": 14
+    },
+    {
+      "mode": "light",
+      "accent": "amber",
+      "route": "tasks",
+      "ms": 19
+    },
+    {
+      "mode": "light",
+      "accent": "amber",
+      "route": "teams",
+      "ms": 14
+    },
+    {
+      "mode": "light",
+      "accent": "amber",
+      "route": "calendar",
+      "ms": 23
+    },
+    {
+      "mode": "light",
+      "accent": "amber",
+      "route": "timeline",
+      "ms": 15
+    },
+    {
+      "mode": "light",
+      "accent": "amber",
+      "route": "budget",
+      "ms": 33
+    },
+    {
+      "mode": "light",
+      "accent": "amber",
+      "route": "risks",
+      "ms": 17
+    },
+    {
+      "mode": "light",
+      "accent": "amber",
+      "route": "reports",
+      "ms": 13
+    },
+    {
+      "mode": "light",
+      "accent": "amber",
+      "route": "notifications",
+      "ms": 14
+    },
+    {
+      "mode": "light",
+      "accent": "amber",
+      "route": "focus",
+      "ms": 14
+    },
+    {
+      "mode": "light",
+      "accent": "amber",
+      "route": "settings",
+      "ms": 14
+    },
+    {
+      "mode": "dark",
+      "accent": "forest",
+      "route": "overview",
+      "ms": 25
+    },
+    {
+      "mode": "dark",
+      "accent": "forest",
+      "route": "projects",
+      "ms": 15
+    },
+    {
+      "mode": "dark",
+      "accent": "forest",
+      "route": "tasks",
+      "ms": 18
+    },
+    {
+      "mode": "dark",
+      "accent": "forest",
+      "route": "teams",
+      "ms": 20
+    },
+    {
+      "mode": "dark",
+      "accent": "forest",
+      "route": "calendar",
+      "ms": 16
+    },
+    {
+      "mode": "dark",
+      "accent": "forest",
+      "route": "timeline",
+      "ms": 17
+    },
+    {
+      "mode": "dark",
+      "accent": "forest",
+      "route": "budget",
+      "ms": 36
+    },
+    {
+      "mode": "dark",
+      "accent": "forest",
+      "route": "risks",
+      "ms": 15
+    },
+    {
+      "mode": "dark",
+      "accent": "forest",
+      "route": "reports",
+      "ms": 14
+    },
+    {
+      "mode": "dark",
+      "accent": "forest",
+      "route": "notifications",
+      "ms": 14
+    },
+    {
+      "mode": "dark",
+      "accent": "forest",
+      "route": "focus",
+      "ms": 10
+    },
+    {
+      "mode": "dark",
+      "accent": "forest",
+      "route": "settings",
+      "ms": 12
+    },
+    {
+      "mode": "dark",
+      "accent": "ocean",
+      "route": "overview",
+      "ms": 21
+    },
+    {
+      "mode": "dark",
+      "accent": "ocean",
+      "route": "projects",
+      "ms": 19
+    },
+    {
+      "mode": "dark",
+      "accent": "ocean",
+      "route": "tasks",
+      "ms": 21
+    },
+    {
+      "mode": "dark",
+      "accent": "ocean",
+      "route": "teams",
+      "ms": 16
+    },
+    {
+      "mode": "dark",
+      "accent": "ocean",
+      "route": "calendar",
+      "ms": 16
+    },
+    {
+      "mode": "dark",
+      "accent": "ocean",
+      "route": "timeline",
+      "ms": 18
+    },
+    {
+      "mode": "dark",
+      "accent": "ocean",
+      "route": "budget",
+      "ms": 18
+    },
+    {
+      "mode": "dark",
+      "accent": "ocean",
+      "route": "risks",
+      "ms": 15
+    },
+    {
+      "mode": "dark",
+      "accent": "ocean",
+      "route": "reports",
+      "ms": 12
+    },
+    {
+      "mode": "dark",
+      "accent": "ocean",
+      "route": "notifications",
+      "ms": 21
+    },
+    {
+      "mode": "dark",
+      "accent": "ocean",
+      "route": "focus",
+      "ms": 13
+    },
+    {
+      "mode": "dark",
+      "accent": "ocean",
+      "route": "settings",
+      "ms": 16
+    },
+    {
+      "mode": "dark",
+      "accent": "violet",
+      "route": "overview",
+      "ms": 24
+    },
+    {
+      "mode": "dark",
+      "accent": "violet",
+      "route": "projects",
+      "ms": 21
+    },
+    {
+      "mode": "dark",
+      "accent": "violet",
+      "route": "tasks",
+      "ms": 14
+    },
+    {
+      "mode": "dark",
+      "accent": "violet",
+      "route": "teams",
+      "ms": 14
+    },
+    {
+      "mode": "dark",
+      "accent": "violet",
+      "route": "calendar",
+      "ms": 14
+    },
+    {
+      "mode": "dark",
+      "accent": "violet",
+      "route": "timeline",
+      "ms": 16
+    },
+    {
+      "mode": "dark",
+      "accent": "violet",
+      "route": "budget",
+      "ms": 17
+    },
+    {
+      "mode": "dark",
+      "accent": "violet",
+      "route": "risks",
+      "ms": 15
+    },
+    {
+      "mode": "dark",
+      "accent": "violet",
+      "route": "reports",
+      "ms": 21
+    },
+    {
+      "mode": "dark",
+      "accent": "violet",
+      "route": "notifications",
+      "ms": 11
+    },
+    {
+      "mode": "dark",
+      "accent": "violet",
+      "route": "focus",
+      "ms": 13
+    },
+    {
+      "mode": "dark",
+      "accent": "violet",
+      "route": "settings",
+      "ms": 13
+    },
+    {
+      "mode": "dark",
+      "accent": "amber",
+      "route": "overview",
+      "ms": 21
+    },
+    {
+      "mode": "dark",
+      "accent": "amber",
+      "route": "projects",
+      "ms": 20
+    },
+    {
+      "mode": "dark",
+      "accent": "amber",
+      "route": "tasks",
+      "ms": 17
+    },
+    {
+      "mode": "dark",
+      "accent": "amber",
+      "route": "teams",
+      "ms": 13
+    },
+    {
+      "mode": "dark",
+      "accent": "amber",
+      "route": "calendar",
+      "ms": 17
+    },
+    {
+      "mode": "dark",
+      "accent": "amber",
+      "route": "timeline",
+      "ms": 21
+    },
+    {
+      "mode": "dark",
+      "accent": "amber",
+      "route": "budget",
+      "ms": 23
+    },
+    {
+      "mode": "dark",
+      "accent": "amber",
+      "route": "risks",
+      "ms": 17
+    },
+    {
+      "mode": "dark",
+      "accent": "amber",
+      "route": "reports",
+      "ms": 17
+    },
+    {
+      "mode": "dark",
+      "accent": "amber",
+      "route": "notifications",
+      "ms": 18
+    },
+    {
+      "mode": "dark",
+      "accent": "amber",
+      "route": "focus",
+      "ms": 16
+    },
+    {
+      "mode": "dark",
+      "accent": "amber",
+      "route": "settings",
+      "ms": 17
+    }
+  ]
+}

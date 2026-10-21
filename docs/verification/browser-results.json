@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "errors": [],
+  "overflow": [],
+  "downloadVerified": true,
+  "downloadLimitation": null,
+  "checks": [
+    "Create and edit project",
+    "XSS rendered as text",
+    "Create and edit task",
+    "Reload persistence",
+    "Board transitions",
+    "Completion and progress",
+    "Search and empty state",
+    "Archive and unarchive",
+    "Calendar navigation",
+    "Focus start/pause/reset",
+    "Profile update",
+    "Export and import",
+    "Invalid import rejected",
+    "Due-only shortcut",
+    "Cascade project delete",
+    "48 responsive page checks",
+    "Corrupt storage recovery"
+  ]
+}

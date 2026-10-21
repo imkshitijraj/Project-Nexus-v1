@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Project Nexus brings your projects, tasks, and deadlines into one calm, local-first workspace.">
+  <meta name="theme-color" content="#196b52">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; worker-src 'none'">
+  <title>Project Nexus · Your workspace</title>
+  <script src="./appearance.js"></script>
+  <link rel="icon" href="./assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./account.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Workspace navigation">
+      <a class="brand" href="#overview"><img src="./assets/mark.svg" width="31" height="31" alt=""><span>nexus<span class="brand-period">.</span></span></a>
+      <label class="workspace-label" for="workspace">YOUR WORKSPACE</label>
+      <div class="workspace-select"><span class="workspace-icon">S</span><select id="workspace" aria-label="Workspace"><option value="all">Personal workspace</option><option value="study">Student workspace</option><option value="work">Professional workspace</option></select></div>
+      <nav id="navigation"></nav>
+      <div class="sidebar-projects"><div class="section-label">PINNED PROJECTS <button class="icon-button" data-action="new-project" aria-label="Create project">+</button></div><div id="pinned-projects"></div></div>
+      <div class="sidebar-bottom"><div class="local-note"><span class="local-indicator"></span><div><strong>Your space. Your data.</strong><p>Stored locally on this browser.</p></div></div><button class="profile" data-action="settings"><span class="avatar">YO</span><span><strong id="profile-name">Your workspace</strong><small>Personal plan · Local storage</small></span><span aria-hidden="true">⌘</span></button></div>
+    </aside>
+    <div class="main-shell"><header class="topbar"><button id="menu-toggle" class="icon-button mobile-only" aria-label="Toggle navigation" aria-expanded="false">☰</button><div class="breadcrumb">Workspace <span>/</span> <strong id="breadcrumb">Overview</strong></div><div class="topbar-tools"><span class="save-status" id="save-status">Saved on this device</span><button id="theme-toggle" class="icon-button" data-action="toggle-theme" aria-label="Switch to dark mode" title="Switch to dark mode"><span aria-hidden="true">◐</span></button><button class="icon-button" data-action="help" aria-label="Help and keyboard shortcuts">?</button><div class="account-control"><button id="account-toggle" class="account-trigger" aria-label="Account menu" aria-controls="account-menu" aria-expanded="false"><span id="account-avatar" class="avatar small" aria-hidden="true">NX</span><span class="account-trigger-label"><strong id="account-label">Your account</strong><small id="account-role">Personal workspace</small></span><span class="account-chevron" aria-hidden="true">⌄</span></button><section id="account-menu" class="account-menu" aria-label="Your account" hidden></section></div></div></header>
+      <div id="storage-warning" class="warning" role="alert" hidden></div>
+      <main id="main" tabindex="-1"></main>
+      <footer class="app-footer"><span>A little structure. A lot more possibility.</span><span>Made for your next big thing <span aria-hidden="true">↗</span></span></footer>
+    </div>
+  </div>
+  <dialog id="editor" aria-labelledby="dialog-title"><div id="dialog-content"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <input type="file" id="import-file" accept=".json,application/json" hidden>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "errors": [],
+  "overflows": [],
+  "accessibility": [],
+  "checks": [
+    "Admin sign-in",
+    "Rich project creation",
+    "Assigned task with estimate and checklist",
+    "Expense and budget alert",
+    "Risk and heatmap score",
+    "Milestone completion",
+    "Attachment upload",
+    "Resource workload",
+    "Calendar event",
+    "PDF generation",
+    "Notification read state",
+    "Reload persistence",
+    "48 responsive checks",
+    "12 axe page audits"
+  ]
+}

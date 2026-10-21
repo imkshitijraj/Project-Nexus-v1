@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "Local static server exposes only public assets",
+    "Failed immediate status save restores the saved value",
+    "Cross-tab conflict preserves both saved data and the unsaved draft",
+    "2,000-task rendering and search",
+    "Unauthenticated shortcuts are inert",
+    "Connected stale save rejects overwrites and keeps draft input",
+    "Viewer shortcuts respect roles",
+    "Failed sign-out clears account labels and offers server revocation retry"
+  ],
+  "errors": [],
+  "localPerformance": {
+    "tasks2000LoadMs": 260,
+    "filter2000Ms": 25
+  }
+}
